@@ -6,4 +6,4 @@ Har sett på tok för mycket film och älskar att befinna mig i kreativa umgäng
 Brainstormingsprocessen är ofta det roligaste i ett projekt och att skapa saker tillsammans. 
 Humor är också viktigt i mitt liv, även om jag inte är särskilt rolig. <br>
 Har Accessible web som särskild hjärtefråga och hoppas en dag att kunna ta fram sidor eller appar som skapar en bro mellan 
-norm-användaren och särskilda behov. För att göra så mycket som möjligt att användas av så många som möjligt. Alla hjälps av inkluderande design
+norm-användaren och särskilda behov. För att få så mycket som möjligt att användas av så många som möjligt. Alla drar nytta av inkluderande design
