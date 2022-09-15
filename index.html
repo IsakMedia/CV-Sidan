@@ -4,51 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FED22M</title>
-    <link rel="stylesheet" href="/style.css" >
+    <meta name="keywords" content="Webdeveloper,Webbutvecklare, portfolio">
+    <meta name="author" content="Isak Westerberg">
+    <title>Portfolio | IsakMedia</title>
+    <!-- <link rel="stylesheet" href="/style.css" > -->
 </head>
 <body>
     <header>
         <nav>
 
-            
-            <img class="logo" src="">
+            <img class="logo" src="/logo.svg" alt="logo">
             <ul>
-<!-- Här i får inget annat än <li> ligga, så bilder och logos läggs utanför-->
-                <li><a href="#">Om mig</a></li>
-                <li><a href="#">kompisar</a></li>
-                <li><a href="#">Hästar</a></li>
+
+                <li><a href="#">Om</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Kontakt</a></li>
 
             </ul>
             
         </nav>
     </header>
 
-    <!--EN h1 per sida. är en regel med modifiktion
-    men i en section får man ha en egen h1, så flera sections på en sida kan
-ha varsin h1. Kan bli problem med skärmläsare i accessibility-->
-
     <main>
-        <h1> Html intro</h1>
-        <h2> Här kommer min exempeltext, vanlig rubrik typ</h2>
-        <h3> det här blir typ en ingress, och kan ju bli bra och så</h3>
+        <div>
+        <h1> IsakMedia</h1>
+        <h2> Webbutvecklare från UXbekistan</h2>
+        <h3> Låt mig lösa dina problem</h3>
+        <button>Allt kommer ordna sig</button>
+        </div>
 
-        <!--det finns inget som säger att en h2 måste vara större än en h3a visuellt
-        men MÅSTE ligga i rätt ordning-->
-    <marquee>Hej klasskompisar!</marquee>
-    <p>Detta är en paragraph</p>
+        
 
-    <p>Klicka där för <a href="https://github.com/isakmedia">min github</a></p>
+    <section>
+        
+        <img src="https://avatars.githubusercontent.com/u/113310586?v=4" width="200" alt="bild av sidskaparen"/>
+        <h2>Om Isak</h2>
+        <h3>Kompetenser:</h3>
+        <ul>
+            <li>Html, css, JavaScript, Wordpress & React</li>
+            <li>Adobe photoshop, Illustrator, Premiere, After Effects</li>
+            <li>XD and Figma</li>
+            <li><a href="Om.html">Komplett CV</a></li>
+        </ul>
+        
+    </section>
 
+    <section>
+    
+    <blockquote cite="https://www.imdb.com/title/tt0113243/characters/nm0001770">
+        <p>
+            You wanted to know who I am, Zero Cool? Well, let me explain the New World Order. 
+            Governments and corporations need people like you and me. We are Samurai... the Keyboard Cowboys [...]
+        </p>
+        
+      </blockquote>
+      <figcaption>The Plague, <cite>Hackers (1995)</cite></figcaption>
 
-            <!--Ibland kan det vara bra att lägga storlekar på bilder i html
-            för att vara säker på att bilden inte pajar grejer om css:en laddar dåligt
-            eller reservera plats-->
-    <img src="https://avatars.githubusercontent.com/u/113310586?v=4" width="150" alt="bild av sidskaparen"/>
+    </section>
+
     </main>
     
 
-    <footer>Här är bra grejer</footer>
+
+    <marquee>Ingen Panik</marquee>
+    
+    <footer>
+            <ul>
+                <li><button>GitHub</button></li>
+                <li><button>Dribbble</button></li>
+                <li><button>Linkedin</button></li>
+            </ul>
+            <a href="mailto:isak.westerberg@medieinstitutet.se">Kontakta mig</a>
+    </footer>
     
 
 </body>
